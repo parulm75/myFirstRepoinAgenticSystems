@@ -11,9 +11,11 @@ def checkPass(avg):
         return "Pass"
     else:
         return "Fail"
-marks=[50.0,65.0,80.0]
-num,avg=calculateNoAndAvg(marks)
-print(greet("Parul"))
-print("Subject: ",num)
-print("Average Score: ",avg)
-print("Result: ",checkPass(avg))
+def main():
+    marks=[50.0,65.0,80.0]
+    num,avg=calculateNoAndAvg(marks)
+    print(greet("Parul"))
+    print("Subject: ",num)
+    print("Average Score: ",avg)
+    print("Result: ",checkPass(avg))
+main()

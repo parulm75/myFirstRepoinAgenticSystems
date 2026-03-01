@@ -1,0 +1,6 @@
+Name,Score,Passed,Category
+Alice,85,True,A
+Bob,67,True,B
+Charlie,92,True,A
+David,58,False,C
+Eva,74,True,B

@@ -66,7 +66,7 @@ FROM users
 LEFT JOIN orders ON users.user_id=orders.user_id
 GROUP BY users.name
 ORDER BY total_sum DESC
-;
+LIMIT 3;
 
 SELECT users.user_id,users.name,sum(orders.amount) as sum_total_amount,activity.login_count
 FROM users 
